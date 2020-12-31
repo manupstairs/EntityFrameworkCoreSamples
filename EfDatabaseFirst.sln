@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDatabaseFirst", "EfDatabaseFirst\EfDatabaseFirst.csproj", "{0FBFD1F7-0A6E-479A-B129-4AC436E0C292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{8A2A2C92-D651-481B-9372-CF2238A693C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C525E22-73E1-4BEF-B14D-1FC9CC1C5FE1}"
+	ProjectSection(SolutionItems) = preProject
+		InitTable.sql = InitTable.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FBFD1F7-0A6E-479A-B129-4AC436E0C292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBFD1F7-0A6E-479A-B129-4AC436E0C292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBFD1F7-0A6E-479A-B129-4AC436E0C292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBFD1F7-0A6E-479A-B129-4AC436E0C292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2A2C92-D651-481B-9372-CF2238A693C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2A2C92-D651-481B-9372-CF2238A693C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2A2C92-D651-481B-9372-CF2238A693C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2A2C92-D651-481B-9372-CF2238A693C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25F6AB8F-9EDD-4432-8506-0F9C288D0263}
+	EndGlobalSection
+EndGlobal
