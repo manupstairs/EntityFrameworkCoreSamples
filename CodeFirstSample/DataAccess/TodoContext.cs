@@ -7,10 +7,9 @@ namespace DataAccess
 {
     public class TodoContext : DbContext
     {
-        public TodoContext(DbContextOptions<TodoContext> options) : base(options)
-        {
-        }
-
         public DbSet<TodoItem> TodoItems { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=CodeFirstDB;Integrated Security=True;");
     }
 }
