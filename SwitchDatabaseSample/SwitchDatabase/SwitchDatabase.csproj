@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess.SQLite\DataAccess.SQLite.csproj" />
+    <ProjectReference Include="..\DataAccess.SQLServer\DataAccess.SQLServer.csproj" />
+  </ItemGroup>
+
 </Project>
