@@ -17,4 +17,10 @@
     <ProjectReference Include="..\DataAccess.SQLServer\DataAccess.SQLServer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="SwitchDB.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

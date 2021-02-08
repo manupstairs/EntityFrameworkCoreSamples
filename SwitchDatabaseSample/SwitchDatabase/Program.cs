@@ -1,4 +1,5 @@
-﻿using DataAccess.SQLServer;
+﻿using DataAccess.SQLite;
+using DataAccess.SQLServer;
 using Entities;
 using System;
 using System.Linq;
@@ -11,7 +12,8 @@ namespace SwitchDatabase
         {
             Console.WriteLine("Hello World!");
 
-            using (var dbContext = new TodoContext())
+            using (var dbContext = new TodoSQLiteContext())
+            //using (var dbContext = new TodoContext())
             {
                 var count = dbContext.TodoItems.Count();
                 var item = new TodoItem { Name = $"test{++count}" };
